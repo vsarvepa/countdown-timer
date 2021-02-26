@@ -1,0 +1,71 @@
+:root {
+  // Colors
+  --color-white: #ffffff;
+  --color-blue-12: #191A23;
+  --color-blue-14: #1D1E28;
+  --color-blue-26: #343650;
+  --color-blue-59: #8385A9;
+  --color-pink-68: #FB5E84;
+
+  // Font Weights
+  --weight-bold: 700;
+
+  // Design elements
+  --transition: 300ms ease-in-out;
+  --easeInOut: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+// Reset
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  color: var(--color-white);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-blue-14);
+  font-family: 'Red Hat Text', sans-serif;
+  background-image: url(../base/Icon/icons/bg-stars.svg);
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.sr-only {
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); z-index: 1; }
+  to { opacity: 0; transform: translateY(-2rem); z-index: -10; }
+}

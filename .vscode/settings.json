@@ -1,0 +1,10 @@
+{
+    "files.eol": "\n",
+    "prettier.trailingComma": "es5",
+    "prettier.singleQuote": true,
+    "editor.tabSize": 2,
+    "prettier.requireConfig": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    }
+}

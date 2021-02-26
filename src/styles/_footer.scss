@@ -1,0 +1,13 @@
+.footer {
+  &__icon {
+    display: inline-flex;
+    
+    .icon path {
+      transition: var(--transition) fill;
+    }
+
+    &:hover .icon path {
+      fill: var(--color-pink-68);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.t-clock {
+  font-size: 3.6rem;
+  line-height: 7.1rem;
+  letter-spacing: -1.08px;
+  color: var(--color-pink-68);
+  font-weight: var(--weight-bold);
+  
+  @media (min-width: 768px) {
+    font-size: 8rem;
+    line-height: 7.1rem;
+    letter-spacing: -2.4px;
+  }
+}
+
+.t-unit-name {
+  font-size: .7rem;
+  line-height: .9rem;
+  letter-spacing: 2.96px;
+  text-transform: uppercase;
+  color: var(--color-blue-59);
+  font-weight: var(--weight-bold);
+  @media (min-width: 768px) {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: 5.92px;
+  }
+}
